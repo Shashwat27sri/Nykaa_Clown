@@ -1,0 +1,283 @@
+*{
+  box-sizing:border-box;    
+}
+.back{
+  background-color:#EEE ;
+}
+header{
+  background-color: rgba(253, 245, 247, 0.74);
+}
+.headerMain .heaMain_links{
+  display: flex;
+  padding-top: 5px;
+  
+}
+
+.heaImg{
+margin-left: 10px ;
+padding-top: 5px;
+}
+#navLink{
+  color: rgb(224, 88, 195);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.navlinko{
+  margin-top: 22px;
+  margin-left: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.heaMain_search{
+  padding-top: 5px;
+  padding-left: 225px;
+}
+#search{
+  border-radius: 5px;
+  border-color: rgb(235, 148, 243);
+}
+nav{
+  
+  display: "flex";
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  
+}
+nav {
+  display: block;
+  padding:14px 90px;
+}
+
+#text{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 100;
+  text-transform: uppercase;
+  
+}
+
+.gap{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.moregap{
+  padding-top: 15px;
+  padding-bottom:2in;
+}
+
+/*-------hover---------*/
+.hoverrr:hover{
+  display: block;
+  cursor: pointer;
+  background:#EEE;
+  box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.288);
+  
+}
+/*-----hover ends--------*/
+
+/* flicity--------------------------------flicity1 css*/
+
+.carousel {
+  background: transparent;
+}
+
+.carousel-cell {
+  height: 250px;
+  margin-right: 10px;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+                                       
+/*--------------------------------------- flicity1 css ends*/
+
+/*-------------top brands css-----------*/
+#topBrands{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.top_items{
+  margin: 5px 5px;
+}
+/*-------------top brands css ends-----------*/
+
+
+/*-------------only at nykaa css-----------*/
+
+#onlyNykaa{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.nykaaProducts{
+  margin: 5px 5px;
+}
+/*-------------only at nykaa css ends-----------*/
+
+/*flicity 2 trending stores & guides----------------------*/
+
+.carousel2 {
+  background: transparent;
+}
+
+.carousel-cell2 {
+  width: 30%;
+  height: 200px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+}
+
+/*flicity 2 trending stores & guides ends----------------------*/
+
+/*------------featured brands css----------*/
+#featuredBrands{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.featured{
+  margin-top:3px;
+  margin-bottom: 3px;
+}
+#nextFeatured{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-top: 5px ;
+}
+/*------------featured brands css end----------*/
+
+
+
+/*flicity 3 hidden gem ----------------------------------------*/
+.carousel3 {
+  background: #EEE;
+}
+
+.carousel3 img {
+  display: block;
+  height: 200px;
+}
+
+@media screen and ( min-width: 768px ) {
+  .carousel3 img {
+    height: 400px;
+  }
+}
+/*flicity 3 hidden gem ends----------------------------------------*/
+/*flicity 4 editor's choice----------------------------------------*/
+.carousel_4 {
+  background: transparent;
+}
+
+.carousel-cell4 {
+  width: 20%;
+  height: 200px;
+  margin-right: 10px;
+  
+  border-radius: 5px;
+  
+}
+
+/*flicity 4 editor's choice ends----------------------------------------*/
+
+
+/*-----------offers you cant miss css-----------*/
+#offersNoMiss{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  margin-left: 70px;
+}
+.offersItems{
+  width:fit-content ;
+}
+
+/*------ offers you cant miss css ends----------*/
+
+/*------pop up stores css -----------*/
+#pop-upStores{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+
+}
+/*------pop up stores css ends-----------*/
+
+/*----------special curations-----------*/
+#special{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  justify-items: center;
+}
+/*----------special curations ends-----------*/
+
+/*---------beauty advices-----------*/
+#advices{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-bottom: 10px;
+  grid-gap: 10px;
+}
+
+
+/*---------beauty advices ends-----------*/
+footer{
+  background-color: rgb(51, 52, 54);
+}
+/*------first footer css------*/
+#contact_footer{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  padding: 10px 10px 10px 10px;
+}
+#first {
+  font-weight: 100;
+  font-size: 18px ;
+}
+#second {
+  font-weight: 100;
+  font-size: 18px ;
+}
+#third {
+  font-weight: 100;
+  font-size: 18px ;
+}
+/*-----first footer css ends--------*/
+
+
+/*-----second footer css ------*/
+#link_footer{
+  background-color: rgb(139, 139, 139);
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  padding-left: 100px;
+  padding-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 90px;
+
+}
+#font{
+  font-size: 18px; ;
+  font-family:sans-serif  ;
+  color: aliceblue;
+}
+#link{
+  text-decoration: none;
+  color: whitesmoke;
+  
+}
+/*-----second footer css done------*/
+
+/*-------last footer css--------*/
+#last_footer{
+  height: 50px;
+  width: 100%;
+  background-color: rgb(250, 209, 231);
+  border:rgb(252, 201, 228) solid;
+  text-align: center;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+/*-------last footer css done--------*/
